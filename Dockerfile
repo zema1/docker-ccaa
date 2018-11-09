@@ -26,6 +26,8 @@ EXPOSE 6080
 
 EXPOSE 6800
 
+EXPOSE 51413
+
 VOLUME ["/data"]
 
 CMD ["/bin/bash", "/etc/ccaa/setinfo.sh"]
