@@ -11,7 +11,7 @@ export PATH
 function install_aria2(){
 	#更新软件
 	yum -y update
-	yum -y install curl wget unzip
+	yum -y install curl wget unzip gcc make
 	yum -y install epel-release
 	yum -y install aria2
 	#验证aria2是否安装成功，如果没有换rpm安装
