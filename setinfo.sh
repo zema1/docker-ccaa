@@ -24,7 +24,7 @@ echo 'Download Dir:' ${downpath}
 echo '-------------------------------------------------------------'
 while true
 do
-   sleep 7d
+   sleep 1d
    #自动更新BT Tracker使用，不需要可以注释掉
    bash /etc/ccaa/upbt.sh
 done
