@@ -6,7 +6,7 @@ ENV CADDYPASS ccaa
 
 COPY aria2.conf /etc/ccaa/
 
-COPY caddy.conf /etc/ccaa/
+COPY caddy.conf.template /etc/ccaa/
 
 COPY upbt.sh /etc/ccaa/
 
